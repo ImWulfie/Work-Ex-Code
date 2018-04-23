@@ -1,3 +1,5 @@
 function welcome(name){
-	alert("hello" + " " + name);
+	var othername = document.getElementById("othername").value;
+
+	alert("hello" + " " + othername);
 }
