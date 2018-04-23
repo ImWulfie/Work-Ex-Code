@@ -1,5 +1,6 @@
 function welcome(name){
-	var othername = document.getElementById("othername").value;
+	var othername = $("#othername").val;
+	$("button").css('color', 'red');
 
 	alert("hello" + " " + othername);
 }
